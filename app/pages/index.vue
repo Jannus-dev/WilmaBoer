@@ -4,6 +4,7 @@
 
 <template>
   <headerComponent />
+  <TitleSectorComponent />
 </template>
 
 <style scoped>
