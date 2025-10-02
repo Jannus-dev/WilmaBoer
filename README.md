@@ -1,8 +1,12 @@
-# Nuxt Minimal Starter
+![Logo - WilmaBoer]()
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-## Setup
+# Website WilmaBoer
+
+High end intrum coach
+
+
+# Setup
 
 Make sure to install dependencies:
 
