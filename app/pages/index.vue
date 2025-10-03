@@ -5,6 +5,7 @@
 <template>
   <headerComponent />
   <TitleSectorComponent />
+  <SectorOneComponent />
 </template>
 
 <style scoped>
