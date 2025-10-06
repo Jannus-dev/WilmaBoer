@@ -1,4 +1,4 @@
-![Logo - WilmaBoer]()
+![Logo - WilmaBoer](app/assets/img/logo.svg)
 
 
 # Website WilmaBoer
