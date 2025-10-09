@@ -1,5 +1,6 @@
 <script setup lang="ts">
 
+import FooterComponent from "~/components/FooterComponent.vue";
 </script>
 
 <template>
@@ -9,6 +10,7 @@
   <SectorTwoComponent />
   <SectorTreeComponent />
   <SectorForeComponent />
+  <FooterComponent />
 </template>
 
 <style scoped>
