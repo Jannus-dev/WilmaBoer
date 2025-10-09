@@ -18,7 +18,7 @@
           Speciaal voor gedreven tijdelijke leiders die in zichzelf willen investeren om grote resultaten te behalen en echt impact willen maken.<br>
         </TextComponent>
       </div>
-      <img src="../assets/img/ZitRood.png" class="h-160 mt-10" alt="img" />
+      <img src="../assets/img/RodeArmenOverElkaar.png" class="h-160 mt-10" alt="img" />
     </div>
     <BannerComponent/>
   </div>
