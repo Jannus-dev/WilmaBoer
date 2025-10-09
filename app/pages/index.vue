@@ -1,6 +1,5 @@
 <script setup lang="ts">
 
-import SectorTwoComponent from "~/components/SectorTwoComponent.vue";
 </script>
 
 <template>
@@ -9,6 +8,7 @@ import SectorTwoComponent from "~/components/SectorTwoComponent.vue";
   <SectorOneComponent />
   <SectorTwoComponent />
   <SectorTreeComponent />
+  <SectorForeComponent />
 </template>
 
 <style scoped>
