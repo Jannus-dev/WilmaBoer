@@ -3,11 +3,11 @@
 </script>
 
 <template>
-  <div class="SectorOne flex">
-    <img src="../assets/img/GreenWindow.jpg" class="h-screen"></img>
-    <div class="text ml-35 mt-15">
+  <div class="SectorOne flex items-stretch">
+    <img src="../assets/img/GreenWindow.png"></img>
+    <div class="text ml-10 mt-15 mr-10">
       <TitleComponent text="Excelleren als interim" tag="h1" />
-      <TextComponent>
+      <TextComponent class="pb-10">
         Ik heb mijn kennis en ervaring samengebracht in mijn high end aanbod voor tijdelijk leiders. <br>
         Als mentor zorg ik er samen met jou voor dat: <br>
         <br>
