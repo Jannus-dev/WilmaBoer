@@ -6,6 +6,10 @@ import {NuxtLink} from "#components";
 import dashboard from "~/pages/dashboard.vue";
 import Dashboard from "~/pages/dashboard.vue";
 
+definePageMeta({
+  middleware: ['guest']
+})
+
 const email = ref('')
 const password = ref('')
 const error = ref('')
