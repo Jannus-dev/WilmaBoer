@@ -8,11 +8,11 @@
       <p>© 2025 Wilma Boer. alle rechten voorbehouden. - Developt by</p>
       <a href="https://www.linkedin.com/in/jan-honing/">: Jannus_Dev</a>
     </div>
-    <div class="legal flex mr-10">
-      <a>Privacy Policy</a>
-      <p>-</p>
-      <a>Terms of Service</a>
-    </div>
+<!--    <div class="legal flex mr-10">-->
+<!--      <a>Privacy Policy</a>-->
+<!--      <p>-</p>-->
+<!--      <a>Terms of Service</a>-->
+<!--    </div>-->
 
   </div>
 </template>
