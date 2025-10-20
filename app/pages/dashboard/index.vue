@@ -16,6 +16,11 @@ async function logout() {
     console.error('Logout failed:', error)
   }
 }
+const sectors = ['start', 'SectorOne', 'SectorTwo', 'SectorThree', 'SectorFour']  // Vul hier je sectoren in
+
+function editSector(sector: string) {
+  router.push(`/dashboard/edit/${sector}`)
+}
 </script>
 
 <template>
@@ -24,7 +29,7 @@ async function logout() {
     <header
         class="bg-white shadow-sm sticky top-0 z-10 border-b border-gray-100 flex items-center justify-between px-6 py-4"
     >
-      <img src="../assets/img/Logo.svg" alt="Logo" class="h-10" />
+      <img src="../../assets/img/Logo.svg" alt="Logo" class="h-10" />
 
       <div class="flex items-center gap-4">
         <p class="text-gray-600 text-sm">
@@ -49,6 +54,16 @@ async function logout() {
         <p class="text-gray-500 text-sm">
           Selecteer welk deel van de website je wilt aanpassen.
         </p>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <button
+              v-for="sector in sectors"
+              :key="sector"
+              @click="editSector(sector)"
+              class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+          >
+            {{ sector }}
+          </button>
+        </div>
       </div>
 
       <!-- Card 2 -->

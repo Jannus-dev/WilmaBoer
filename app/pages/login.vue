@@ -3,8 +3,7 @@ import { ref } from 'vue'
 import { useNuxtApp } from '#app'
 import { signInWithEmailAndPassword } from 'firebase/auth'
 import {NuxtLink} from "#components";
-import dashboard from "~/pages/dashboard.vue";
-import Dashboard from "~/pages/dashboard.vue";
+import Index from "~/pages/dashboard/index.vue";
 
 definePageMeta({
   middleware: ['guest']
@@ -21,7 +20,7 @@ const login = async () => {
   try {
     const userCredential = await signInWithEmailAndPassword($auth, email.value, password.value)
     console.log('Logged in:', userCredential.user)
-    // redirect naar dashboard
+    // redirect naar Index
     navigateTo('/dashboard')
   } catch (err: any) {
     error.value = err.message
