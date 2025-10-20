@@ -1,21 +1,34 @@
 <script setup lang="ts">
+import { doc, getDoc } from 'firebase/firestore'
 
+const { $db } = useNuxtApp()
+const content = ref<{ Title?: string; text?: string }>({})
+const loading = ref(true)
+
+onMounted(async () => {
+  try {
+    const docRef = doc($db, 'page', 'SectorFour')
+    const snapshot = await getDoc(docRef)
+    if (snapshot.exists()) {
+      content.value = snapshot.data()
+    } else {
+      console.warn('Document niet gevonden!')
+    }
+  } catch (err) {
+    console.error('Fout bij ophalen data:', err)
+  } finally {
+    loading.value = false
+  }
+})
 </script>
 
 <template>
   <div class="sectorTwo bg-backgroundGray h-screen flex flex-col items-center justify-center">
     <div class="content flex">
       <div class="text ml-35 mt-15">
-        <TitleComponent text="Aanbod" tag="h1" />
+        <TitleComponent :text="content.Title" tag="h1" />
         <TextComponent >
-          Excelleren als tijdelijk leider naar aanleiding van mijn 3 verschillinde aanbiedingen. <br>
-          <br>
-          <span class="font-bold"> High-End Strategie- & Doorbraaksessies </span> <br>
-          Speciaal voor jou als je driect helderheid wilt over je positionering en de vervolgstappen die je kunt zetten<br>
-          <br>
-          <span class="font-bold">High-End Premium Mentorschap </span> <br>
-          Binnen 6 maanden excelleren als tijdelijk leider.<br>
-          Speciaal voor gedreven tijdelijke leiders die in zichzelf willen investeren om grote resultaten te behalen en echt impact willen maken.<br>
+          {{ content.text }}
         </TextComponent>
       </div>
       <img src="../assets/img/RodeArmenOverElkaar.png" class="h-160 mt-10" alt="img" />
