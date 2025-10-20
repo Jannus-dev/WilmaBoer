@@ -14,7 +14,7 @@
         <br>
         Ik zag hoe moeilijk het af en toe kan zijn om echt staan te blijven in een opdracht. Als jij vanuit je professionaliteit echt wat anders vindt dan je opdrachtgever van je vraagt. <br>
         <br>
-        Zelf heb ik jarenlange ervaring als interim in uitdagende opdrachten. Pionieren, out-of-the-box denken en doen en een positie durven innemen waren altijd in alle opdrachten aanwezig. Ik vind het het leukst als het aan de voorkant niet helemaal helder is, of in rollen terechtkom die niet echt bestaan. 
+        Zelf heb ik jarenlange ervaring als interim in uitdagende opdrachten. Pionieren, out-of-the-box denken en doen en een positie durven innemen waren altijd in alle opdrachten aanwezig. Ik vind het het leukst als het aan de voorkant niet helemaal helder is, of in rollen terechtkom die niet echt bestaan.
 
       </TextComponent>
     </div>
