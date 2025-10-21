@@ -39,7 +39,7 @@ function editSector(sector: string) {
 
         <button
             @click="logout"
-            class="px-4 py-2 bg-red-500 hover:bg-red-600 text-white text-sm font-medium rounded-lg shadow transition-all duration-150"
+            class="px-4 py-2 bg-CickRood hover:bg-red-600 text-white text-sm font-medium rounded-lg shadow transition-all duration-150"
         >
           Log uit
         </button>
@@ -54,12 +54,12 @@ function editSector(sector: string) {
         <p class="text-gray-500 text-sm">
           Selecteer welk deel van de website je wilt aanpassen.
         </p>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="flex flex-col gap-6 mt-10">
           <button
               v-for="sector in sectors"
               :key="sector"
               @click="editSector(sector)"
-              class="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+              class="px-6 py-3 bg-LichtPaars text-white rounded-lg hover:bg-Goud transition"
           >
             {{ sector }}
           </button>

@@ -47,7 +47,7 @@ const saveChanges = async () => {
 
       <div class="flex justify-between items-center">
         <button @click="router.push('/dashboard')" class="text-gray-600 hover:text-gray-800">← Terug</button>
-        <button @click="saveChanges" :disabled="saving" class="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700 transition">
+        <button @click="saveChanges" :disabled="saving" class="bg-LichtPaars text-white px-6 py-2 rounded hover:bg-Goud transition">
           {{ saving ? 'Opslaan...' : 'Opslaan' }}
         </button>
       </div>
