@@ -1,5 +1,4 @@
 export default defineNuxtRouteMiddleware(async (to) => {
-    // 🚫 Server-side skippen (alleen client)
     if (import.meta.server) return
 
     const { $auth } = useNuxtApp()
