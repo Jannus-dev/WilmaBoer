@@ -2,8 +2,6 @@
 import { ref } from 'vue'
 import { useNuxtApp } from '#app'
 import { signInWithEmailAndPassword } from 'firebase/auth'
-import {NuxtLink} from "#components";
-import Index from "~/pages/dashboard/index.vue";
 
 definePageMeta({
   middleware: ['guest']

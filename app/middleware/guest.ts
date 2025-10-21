@@ -11,6 +11,6 @@ export default defineNuxtRouteMiddleware(async () => {
 
     const user = $auth.currentUser
     if (user) {
-        return navigateTo('/Index')
+        return navigateTo('/dashboard')
     }
 })
