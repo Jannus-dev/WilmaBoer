@@ -16,7 +16,7 @@ async function logout() {
     console.error('Logout failed:', error)
   }
 }
-const sectors = ['start', 'SectorOne', 'SectorTwo', 'SectorThree', 'SectorFour']  // Vul hier je sectoren in
+const sectors = ['start', 'SectorOne', 'SectorTwo', 'SectorThree', 'SectorFour', "SectorFive"]  // Vul hier je sectoren in
 
 function editSector(sector: string) {
   router.push(`/dashboard/edit/${sector}`)

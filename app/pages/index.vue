@@ -10,6 +10,7 @@ import FooterComponent from "~/components/FooterComponent.vue";
   <SectorTwoComponent />
   <SectorTreeComponent />
   <SectorForeComponent />
+  <SectorFiveComponent />
   <FooterComponent />
 </template>
 
