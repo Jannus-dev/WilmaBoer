@@ -8,7 +8,7 @@
 </script>
 
 <template>
-  <p class="text w-210 text-2xl mt-10">
+  <p class="text w-210 text-xl mt-10">
     <slot />
   </p>
 </template>
