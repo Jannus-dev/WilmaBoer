@@ -26,7 +26,7 @@ onMounted(async () => {
   <div class="SectorOne flex">
     <img src="../assets/img/DeurBlauw.png" class="h-screen"></img>
     <div class="text ml-35 mt-15">
-      <TitleComponent :text="content.Title" tag="h1" />
+      <TitleComponent :text="content.Title || ''" tag="h1" />
       <TextComponent>
         {{ content.text }}
       </TextComponent>

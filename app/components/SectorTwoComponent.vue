@@ -26,7 +26,7 @@ onMounted(async () => {
   <div class="sectorTwo bg-backgroundGray h-screen flex flex-col items-center justify-center">
     <div class="content flex">
       <div class="text ml-35 mt-15">
-        <TitleComponent :text="content.Title" tag="h1" />
+        <TitleComponent :text="content.Title || ''" tag="h1" />
         <TextComponent >
           {{ content.text }}
         </TextComponent>
