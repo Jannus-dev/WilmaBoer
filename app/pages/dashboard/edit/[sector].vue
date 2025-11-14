@@ -101,6 +101,8 @@ const saveChanges = async () => {
       </div>
     </div>
   </div>
+
+  <FormComponent />
 </template>
 
 
