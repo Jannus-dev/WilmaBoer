@@ -181,11 +181,10 @@ const onEditorChange = (data: string) => {
   <FormComponent />
 </template>
 
-<!--<style>-->
-<!--/* Voeg eventueel basis styling toe voor de editor wrapper als de standaard weergave niet voldoet */-->
-<!--.ckeditor-container .ck-editor__editable {-->
-<!--  min-height: 300px; /* Stel de minimale hoogte van het bewerkingsgebied in */-->
-<!--}-->
-<!--</style>-->
+<style>
+.ck-powered-by-balloon{
+  visibility: hidden !important;
+}
+</style>
 
 
