@@ -27,9 +27,7 @@ onMounted(async () => {
     <img src="../assets/img/GreenWindow.png"></img>
     <div class="text ml-10 mt-15 mr-10">
       <TitleComponent :text="content.Title || ''" tag="h1" />
-      <TextComponent class="pb-10">
-        {{ content.text }}
-      </TextComponent>
+      <TextComponent :html-content="content.text || ''" />
     </div>
   </div>
 </template>

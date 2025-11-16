@@ -27,9 +27,7 @@ onMounted(async () => {
     <div class="content flex">
       <div class="text ml-35 mt-15">
         <TitleComponent :text="content.Title || ''" tag="h1" />
-        <TextComponent >
-          {{ content.text }}
-        </TextComponent>
+        <TextComponent :html-content="content.text || ''" />
        </div>
        <img src="../assets/img/ZitRood.png" class="h-160 mt-10" />
       </div>
