@@ -177,8 +177,6 @@ const onEditorChange = (data: string) => {
       </div>
     </div>
   </div>
-
-  <FormComponent />
 </template>
 
 <style>
