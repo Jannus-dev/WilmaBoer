@@ -80,6 +80,7 @@ function editSector(sector: string) {
         <p class="text-gray-500 text-sm">
           Bekijk alle social media posts op 1 plek.
         </p>
+        <Hero />
       </div>
     </main>
   </div>

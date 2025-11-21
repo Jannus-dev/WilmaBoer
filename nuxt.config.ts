@@ -18,5 +18,10 @@ export default defineNuxtConfig({
             ],
         }
     },
-    plugins: ['~/plugins/firebase.client']
+    plugins: ['~/plugins/firebase.client'],
+    modules: ['@storyblok/nuxt'],
+    storyblok:{
+        accessToken: process.env.STORYBLOK_DELIVERY_API_TOKEN,
+        apiOptions: 'eu',
+    }
 });
