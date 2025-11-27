@@ -24,7 +24,11 @@ const { story } = await useAsyncStoryblok('home', {
   api: {
     version: 'draft', // or 'published'
   },
+
 });
+// console.log(story.value.content); // Dit is de data voor het Page component
+
+
 </script>
 
 <template>
